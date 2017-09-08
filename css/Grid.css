@@ -1,0 +1,83 @@
+﻿/**********Grid******************/
+/* ana tablo  */
+table.grid
+{
+   
+    font-family:tahoma,helvetica,arial,sans-serif;
+    font-size:11px;
+	border:solid 1px #99aabd;
+}
+
+/* başlık ve daha satırları  */
+.grid td, .grid th
+{
+    height:14px;
+    border:0;
+    vertical-align:middle;
+    white-space:nowrap;
+
+}
+
+/* başlık */
+.grid th
+{
+    padding:4px 4px;    
+    text-align:center;
+    border:none;
+    background:url(images/grad4.gif) repeat-x ;
+    white-space:nowrap;
+    border:none;
+    color:White;	
+}
+
+/* başlıktaki linkler */
+.grid th a
+{
+    font-size:11px;
+    color:#fff;
+    font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	display:block;    
+}
+
+/* veri satırları */
+.grid td
+{
+    padding: 3px 5px 3px 5px;
+    vertical-align: middle;
+    font-weight:normal;
+    border:none;
+    white-space:normal;
+}
+
+
+/*komut hücreleri */
+.grid td.command
+{
+    padding:3px 3px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+/* alt stiller */
+.grid .altrowstyle
+{
+    background-color: #E7DEFE;
+    border-top:solid 1px silver;
+    border-bottom:solid 1px silver;
+}
+
+/* artan sıralama başlık */
+.grid .sortascheader a { background:url(img/dt-arrow-up.png) no-repeat right 50%; } 
+
+/* Azalan sıralama başlık  */
+.grid .sortdescheader a { background:url(img/dt-arrow-dn.png) no-repeat right 50%; } 
+
+
+
+
+/**********Grid******************/
+
+
+
